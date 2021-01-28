@@ -1,0 +1,29 @@
+
+参数化使用
+@pytest.mark.parametrize(argnames, argvalues)
+argname: 要参数花化的变量，string(逗号分割)，list，tuple
+argvalues， 参数化的值，list， list[tuple]
+
+# 使用string
+@pytest.mark.parametrize("a,b", [(10,20],(10,30)]
+def test_param(self, a, b):
+    print(a+b)
+
+# 使用list
+@pytest.mark.parametrize(["a","b"], [(10,20],(10,30)]
+def test_param(self, a, b):
+    print(a+b)
+
+
+# tuple
+@pytest.mark.parametrize(("a","b"), [(10,20],(10,30)]
+def test_param(self, a, b):
+    print(a+b)
+
+#yaml 参数化
+yaml实现list 字典 嵌套
+
+#加载yaml文件
+@pytest.mark.parametrize(("a","b"), yaml.safe_load(open("./data.yaml")))
+def test_param(self, a, b):
+    print(a+b)

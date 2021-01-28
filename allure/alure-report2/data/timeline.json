@@ -1,0 +1,26 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "jjiliu",
+    "children" : [ {
+      "name" : "13644-MainThread",
+      "children" : [ {
+        "name" : "test_with_testcase_link",
+        "uid" : "bc82a5182e2c7d51",
+        "parentUid" : "85d892927cae8b48ac21401aca3b861c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609238190132,
+          "stop" : 1609238190132,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "85d892927cae8b48ac21401aca3b861c"
+    } ],
+    "uid" : "78c4f9e735f822ce5bd5d4e4e1fac1b0"
+  } ]
+}

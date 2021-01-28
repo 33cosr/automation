@@ -1,0 +1,4 @@
+this is login: testcase, login success
+open app
+enter login page
+input input username and password
